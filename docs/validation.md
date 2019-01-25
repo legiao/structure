@@ -63,9 +63,14 @@ Validations marked with __**__ accept a value or an [attribute reference](#attri
 - `upperCase`: all characters must be upper cased
 - `email`: is a valid email (default: `false`)
 - `nullable`: accepts null (default: `false`)
+- `uuid`: is a valid uuid (default: `false`)
 
 ```javascript
 const User = attributes({
+  id: {
+    type: String,
+    uuid: true
+  },
   initials: {
     type: String,
     upperCase: true,
