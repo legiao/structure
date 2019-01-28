@@ -11,7 +11,7 @@
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://structure.js.org/",
+  "homepage": "https://github.com/tiagogoncalves89/structure",
   "repository": "https://github.com/tiagogoncalves89/structure",
   "bugs": "https://github.com/tiagogoncalves89/structure/issues",
   "author": "Talysson <talyssonoc@gmail.com>",
