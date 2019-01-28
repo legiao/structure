@@ -21,4 +21,4 @@
 * [Serialization](/docs/serialization.md)
 * [Contributing](/contributing.md)
 * [License](/license.md)
-* [GitHub](https://github.com/talyssonoc/structure)
+* [GitHub](https://github.com/tiagogoncalves89/structure)
