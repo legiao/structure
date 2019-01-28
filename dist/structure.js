@@ -110,7 +110,7 @@ return /******/ (function(modules) { // webpackBootstrap
 	    var WrapperClass = new Proxy(Class, {
 	      construct: function construct(target, constructorArgs, newTarget) {
 	        var instance = Reflect.construct(target, constructorArgs, newTarget);
-	        var passedAttributes = constructorArgs[0] || {};
+	        var passedAttributes = Object.assign({}, constructorArgs[0]);
 
 	        Initializer.initialize(passedAttributes, schema, instance);
 
@@ -281,7 +281,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 	module.exports = {
 	  type: String,
-	  joiMappings: [['minLength', 'min', true], ['maxLength', 'max', true], ['exactLength', 'length', true], ['regex', 'regex', true], ['alphanumeric', 'alphanum'], ['lowerCase', 'lowercase'], ['upperCase', 'uppercase'], ['email', 'email'], ['required', 'required']],
+	  joiMappings: [['minLength', 'min', true], ['maxLength', 'max', true], ['exactLength', 'length', true], ['regex', 'regex', true], ['alphanumeric', 'alphanum'], ['lowerCase', 'lowercase'], ['upperCase', 'uppercase'], ['email', 'email'], ['uuid', 'uuid'], ['required', 'required']],
 	  createJoiSchema: function createJoiSchema(typeDescriptor) {
 	    var joiSchema = joi.string();
 

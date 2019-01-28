@@ -1,6 +1,6 @@
 {
-  "name": "structure",
-  "version": "1.3.0",
+  "name": "structure-improved",
+  "version": "1.4.0",
   "description": "A simple schema/attributes library built on top of modern JavaScript",
   "main": "src/index.js",
   "browser": "dist/structure.js",
@@ -12,12 +12,13 @@
     "node": ">=6"
   },
   "homepage": "https://structure.js.org/",
-  "repository": "https://github.com/talyssonoc/structure",
-  "bugs": "https://github.com/talyssonoc/structure/issues",
+  "repository": "https://github.com/tiagogoncalves89/structure",
+  "bugs": "https://github.com/tiagogoncalves89/structure/issues",
   "author": "Talysson <talyssonoc@gmail.com>",
   "contributors": [
     "Fernando <me@fleury.io>",
-    "Wender Freese <wender.jean@gmail.com>"
+    "Wender Freese <wender.jean@gmail.com>",
+    "Tiago de Assis Gonçalves <contato@tiagogoncalves.com.br>"
   ],
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
